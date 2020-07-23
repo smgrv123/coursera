@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+p{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+@media(min-width:992px){
+    .dv-lg-4{
+        background-color: grey;
+        width: 33%;
+        float: left;
+        margin: 0.1%;
+        box-sizing: border-box;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .dv-md-6{
+        background-color: grey;
+        width: 49%;
+        float: left;
+        margin: 0.1%;
+        box-sizing: border-box;
+    }
+    .dv-md-12{
+        background-color: grey;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        margin-top: 15px;
+    }
+}
+@media(max-width:767px){
+    .dv-sm-12{
+        background-color: grey;
+        width: 100%;
+        float: left;
+        /* margin: 0.1%; */
+        box-sizing: border-box;
+    }
+}
